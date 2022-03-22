@@ -36,15 +36,15 @@ EntityManager entityManager;
     }
     public static void main(String[] args) {
 		PassengerId passengerId = new PassengerId();
-		passengerId.setPassengerEmail("kidharvinodh198@gmail.com");
-		passengerId.setPassengerMobile(9283391839l);
+		passengerId.setPassengerEmail("peter9786@gmail.com");
+		passengerId.setPassengerMobile(989464353);
 		
 		Passenger passenger = new Passenger();
 		passenger.setPassengerEmail(passenger.getPassengerEmail());
 		passenger.setPassengerMobile(passenger.getPassengerMobile());
-		passenger.setPassengerName("Vinodh Kumar");
-		passenger.setSource("Tanuku");
-		passenger.setDestination("Samalarkot");
+		passenger.setPassengerName("Peter");
+		passenger.setSource("Vizag");
+		passenger.setDestination("Srikakulam");
 		Library lib=new Library();
 		lib.savePassenger(passenger);
 		lib.savePassengerId(passengerId);
